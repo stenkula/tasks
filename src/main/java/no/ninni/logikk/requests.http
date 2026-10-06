@@ -1,0 +1,10 @@
+### Hello word
+@baseUrl = http://localhost:8080
+
+### GET /hello
+GET {{baseUrl}}/hello
+Accept: text/plain
+
+### GET /largestPrimeFactor
+GET {{baseUrl}}/largestPrimeFactor?param=600851475143
+Accept: text/plain
